@@ -10,6 +10,7 @@ const App = () => {
         {a} + {b} is {a + b}
       </p>
       <p>This is an example of the ability to render dynamic content inside of a component within React.</p>
+      <p>Created by Aneal Bening.</p>
     </div>
   )
 }
