@@ -9,7 +9,7 @@ const Hello = (props) => {
 }
 
 
-const App = () => { /* Demonstrates how values can be passed through so they can be used for props.*/
+const App = () => { /* Demonstrates how values (e.g 'Name' and 'age' values) can be passed through so they can be used for props.*/
   const name = 'Peter'
   const age = 10
   return (
