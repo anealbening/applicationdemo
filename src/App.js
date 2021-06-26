@@ -9,7 +9,7 @@ const Hello = (props) => {
 }
 
 
-const App = () => { /* This performs addition dynamically within the app and also passes in name through props in Hello constant.*/
+const App = () => { /* Demonstrates how values can be passed through so they can be used for props.*/
   const name = 'Peter'
   const age = 10
   return (
@@ -17,7 +17,7 @@ const App = () => { /* This performs addition dynamically within the app and als
       <h1>Greetings</h1>
       <Hello name="Aneal Bening" age={20} /> 
       <Hello name={name} age={age} />
-      <Footer />
+      <Footer /> 
     </div>
   )
 }
