@@ -17,6 +17,15 @@ const App = () => { /* This performs addition dynamically within the app and als
       <h1>Greetings</h1>
       <Hello name="Aneal Bening" age={20} /> 
       <Hello name={name} age={age} />
+      <Footer />
+    </div>
+  )
+}
+
+const Footer = () => {
+  return (
+    <div>
+      app created by <a href="https://github.com/anealbening">Aneal Bening</a>
     </div>
   )
 }
