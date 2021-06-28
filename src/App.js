@@ -1,9 +1,14 @@
 import React from 'react'
 /* Code written by Aneal Bening. June 2021. Followed tutorial on fullstackopen.com (2021 tutorial).*/
 const Hello = (props) => {
+  const bornYear =() => {
+    const yearNow = new Date().getFullYear()
+    return yearNow - props.age
+  }
   return (
     <div>
       <h1>Hello {props.name}, you are {props.age} years old.</h1> 
+      <p>So you were probably born in {bornYear()}</p>
     </div> /* Implemented props into code. */
   )
 }
