@@ -16,7 +16,7 @@ const Hello = (props) => { /*Implemented guessing year of birth into code */
 
 const App = () => { /* Demonstrates how values (e.g 'Name' and 'age' values) can be passed through so they can be used for props.*/
   const name = 'Peter'
-  const age = 10
+  const age = 50
   return (
     <div>
       <h1>Greetings</h1>
@@ -26,10 +26,10 @@ const App = () => { /* Demonstrates how values (e.g 'Name' and 'age' values) can
   )
 }
 
-const Footer = () => {
+const Footer = () => { /*Footer area which will be at the bottom of the React web page */
   return (
     <div>
-      app created by <a href="https://github.com/anealbening">Aneal Bening</a>
+      app created by <a href="https://github.com/anealbening">Aneal Bening</a> 
     </div>
   )
 }
