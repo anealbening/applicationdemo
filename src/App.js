@@ -22,7 +22,6 @@ const App = () => { /* Demonstrates how values (e.g 'Name' and 'age' values) can
       <h1>Greetings</h1>
       <Hello name="Aneal Bening" age={20} /> 
       <Footer /> 
-      <p>Retrieving test constant variable: {test}</p> 
     </div>
   )
 }
