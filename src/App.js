@@ -19,7 +19,7 @@ const App = () => { /* Demonstrates how values (e.g 'Name' and 'age' values) can
       <Hello name="Aneal Bening" age={20} /> 
       <Hello name={name} age={age} />
       <Footer /> 
-      <p>Retrieving test constant variable {test}</p> 
+      <p>Retrieving test constant variable: {test}</p> 
     </div>
   )
 }
