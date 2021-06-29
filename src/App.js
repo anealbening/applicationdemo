@@ -1,5 +1,5 @@
 import React from 'react'
-/* Code written by Aneal Bening. June 2021. Followed tutorial on fullstackopen.com (2021 tutorial).*/
+/* Code written by Aneal Bening. June 2021. Followed ReactJS tutorial on fullstackopen.com (2021 tutorial).*/
 const Hello = (props) => { /*Implemented guessing year of birth into code */
   const bornYear =() => {
     const yearNow = new Date().getFullYear()
