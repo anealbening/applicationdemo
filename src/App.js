@@ -17,8 +17,8 @@ const Hello = (props) => { /*Implemented guessing year of birth into code */
 
 
 const App = () => { /* Demonstrates how values (e.g 'Name' and 'age' values) can be passed through so they can be used for props.*/
-  const name = 'Peter'
-  const age = 50
+  /*const name = 'Peter' */
+  /*const age = 50*/ /* Commented out these two unused variables - for display purposes only. */
   return (
     <div>
       <h1>Greetings</h1>
